@@ -1,0 +1,73 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: times new roman,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url("backgroundimage/background.jpeg");
+    background-size: cover;      /* makes image cover full screen */
+    background-position: center; /* keeps image centered */
+    background-repeat: no-repeat; /* prevents tiling */
+}
+
+.container {
+    background-color: lavender;
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+.login-btn{
+    background: linear-gradient(45deg,#ff66b2,#cc99ff);
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.login-btn:hover{
+    background:inear-gradient(45deg,#ff3399,#b366ff);
+}
+
+/* Click effect */
+.login-btn:active{
+    transform: scale(0.9);
+    background: linear-gradient(45deg,#cc0066,#9933ff);
+}
+
+h1 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.username {
+    font-weight: bold;
+    color: rgb(128, 0, 0)
+}
+
+.logout-btn {
+    text-decoration: none;
+    background-color: #e53935;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #b71c1c;
+}
